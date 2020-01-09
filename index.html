@@ -12,9 +12,8 @@
 
 <body>
   <script src="js/three.js"></script>
-  <script>
-    import {GLTFLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r112/examples/jsm/loaders/GLTFLoader.js'; 
-	  
+	<button type="button" onclick="camera.position.z++;">MAKE CUBE SMALLER</button>
+  <script>  
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
