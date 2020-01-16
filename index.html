@@ -9,7 +9,9 @@
 
 <body>
   <script src="js/three.js"></script>
-	<button type="button" onclick="camera.position.z++;">MAKE CUBE SMALLER</button>
+  <div id="uiContainer">
+	  <button type="button" onclick="camera.position.z++;">MAKE CUBE SMALLER</button>
+  </div>
   <script>  
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
